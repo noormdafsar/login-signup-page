@@ -1,0 +1,109 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'poppins', sans-serif;
+    line-height: 1.6;
+    color: #f7f5f5;
+    background-color: #f9f9f9;
+    padding: 20px;
+    background-image: url('./image/login2.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  /* Section styles */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  #log-email {
+    margin-left: 620px;
+  }
+  section h2 {
+    margin-left: 580px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  /* section, #login {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  } */
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+  
+  form button[type="submit"] {
+    display: block;
+    padding: 12px 20px;
+    font-size: larger;
+    font-weight: 700;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #6c2df2;
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s;
+    animation: ease-in-out 0.3s ;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #eae6e6;
+    margin-top: 50px;
+  }
+  

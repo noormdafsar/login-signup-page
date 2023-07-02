@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login and Registration</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Login and Registration</h1>
+  </header>
+
+  <section handleLogin id="login">
+    <h2 id="log-email">Login</h2>
+    <form action="/login" method="POST">
+      <label for="email">Email:</label>
+      <input id="login-email" type="email" id="email" name="email" required><br><br>
+
+      <label for="password">Password:</label>
+      <input id="login-password" type="password" id="password" name="password" required><br><br>
+
+      <button type="submit">Login</button><br><br><br>
+    </form>
+  </section>
+
+  <section handleRegistration id="registration">
+    <h2>Registration</h2>
+    <form action="/register" method="POST">
+      <label for="company">Company Name:</label>
+      <input id="company" type="text" id="company" name="company" required><br><br>
+
+      <label for="email">Email:</label>
+      <input id="registration-email" type="email" id="email" name="email" required><br><br>
+
+      <label for="password">Password:</label>
+      <input id="registration-password" type="password" id="password" name="password" required><br><br>
+      <button type="submit">Register</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2023 RecruitX. All rights reserved.
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
